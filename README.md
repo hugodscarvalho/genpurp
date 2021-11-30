@@ -1,6 +1,6 @@
 ## Project description 
 
-´drivtime´ was created to summarize the following regulations regarding the calculation of **driving time and rest periods in the road transport sector**.
+`drivtime` was created to summarize the following regulations regarding the calculation of **driving time and rest periods in the road transport sector**.
 
 Regulation (EC) No 561/2006, as amended by Regulation (EU) [2020/1054](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32020R1054), lays down rules on driving times, breaks and rest periods for drivers of lorries, coaches and buses in order to improve working conditions and road safety.
 Regulation (EU) No 165/2014, as amended by Regulation (EU) 2020/1054, sets out requirements concerning the construction, installation, use, testing and control of tachographs that must be fitted in the vehicles that fall within the scope of Regulation (EC) No 561/2006.
@@ -28,18 +28,12 @@ Detailed rules for these are set out in Articles 6, 7, 8 and 9. They include:
 
 ## Requirements
 
-* Python 3.6+
-* Django 2.2+
 
 ## Installation
 
 Install with pip `pip install drivtime`
 
-...
-
 ## Documentation
-
-...
 
 
 ## License
