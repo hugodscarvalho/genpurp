@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
     name="genpurp",
-    version="0.0.1",
+    version="0.0.2",
     author="Hugo Carvalho",
     author_email="hugodanielsilvacarvalho.hc@gmail.com",
     description="General-purpose library of utilities and extensions to the pandas standard library.",

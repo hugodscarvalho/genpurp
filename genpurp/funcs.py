@@ -36,15 +36,15 @@ def split_groups(data: pd.DataFrame,
         else:
             out = "_".join(key)
             dfs[out] = dfs.pop(key)
-    if(save==True):
-        dir_name = ""
-        if(type(columns) == str):
-            create_dir(columns)
-            dfs[out].to_csv(f'{columns}/{out}.csv', index=False)
-        else:
-            dir_name = "_".join(columns)
-            create_dir(dir_name)
-            dfs[out].to_csv(f'{dir_name}/{out}.csv', index=False)
+        if(save==True):
+            dir_name = ""
+            if(type(columns) == str):
+                create_dir(columns)
+                dfs[out].to_csv(f'{columns}/{out}.csv', index=False)
+            else:
+                dir_name = "_".join(columns)
+                create_dir(dir_name)
+                dfs[out].to_csv(f'{dir_name}/{out}.csv', index=False)
     return dfs
 
 def remove_duplicates(df: pd.DataFrame, **kwargs: dict) -> pd.DataFrame:
